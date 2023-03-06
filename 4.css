@@ -1,0 +1,20 @@
+
+.table, th, td{
+    border:1px solid #c53a3d;
+    font-family: 'Trebuchet MS', 'Arial', 'Helvetica',sans-serif;
+}
+table{
+    border-collapse:collapse;
+}
+
+th, td {
+    text-align: left;
+    
+  }
+tr:nth-child(even) {background-color: #b9b4b4;}
+
+th:last-child {
+    
+    pseudo-element:first-child;
+    padding: 5px;
+  }
